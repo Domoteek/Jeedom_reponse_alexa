@@ -35,15 +35,14 @@
       "isAvailableWorldwide": true,
       "locales": {
         "fr-FR": {
-          "description": "Sample Full Description",
+          "description": "Skill qui attend une reponse oui ou non",
           "examplePhrases": [
-            "Alexa ouvre le génie des salutations",
-            "bonjour",
+            "-RIEN- n'est neccessaire pour interagir avec cette skill",
             "aide"
           ],
           "keywords": [],
           "name": "Reponsedomotique",
-          "summary": "Sample Short Description"
+          "summary": "Skill qui attend une reponse oui ou non"
         }
       },
       "testingInstructions": "Sample Testing Instructions."
