@@ -8,8 +8,8 @@ module.exports = {
     "Oui ou Non ?"
   ],
   reponse_oui: [
-      "Ouuuhouuuu c'est parti !!",
-      "Ouuuuulaaalaaa! pinaise ! c'est fait !"
+      "Commande jeedom executé",
+      "c'est fait !"
       ],
   reponse_non: [
       "pourquoi m'avez vous deranger dans mon sommeil ?",
