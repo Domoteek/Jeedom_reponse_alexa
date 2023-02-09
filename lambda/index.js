@@ -1,8 +1,3 @@
-/* *
- * This sample demonstrates handling intents from an Alexa skill using the Alexa Skills Kit SDK (v2).
- * Please visit https://alexa.design/cookbook for additional examples on implementing slots, dialog management,
- * session persistence, api calls, and more.
- * */
 const Alexa = require('ask-sdk-core');
 const https = require('https');
 const variables = require('./donnees');
@@ -123,7 +118,7 @@ const HelpIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'Si tu veux de l\'aide demande a papa !';
+        const speakOutput = 'Si tu veux de l\'aide reprennez contact avec clement le concepteur';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
